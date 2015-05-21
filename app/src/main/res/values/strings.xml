@@ -1,0 +1,13 @@
+
+    <resources>
+        <string name="app_name">dlya rabota</string>
+        <string-array name="musicsname">
+            <item>1. Dima Bilan - Ne Molchi</item>
+            <item>2. MC Doni ft Natali - Ti Takoy</item>
+            <item>3. Potap - Chumacechaya Vesna</item>
+            <item>4. Timati - Derzkaya</item>
+            <item>5. Dan Balan - Do Utro</item>
+        </string-array>
+
+    </resources>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/widget31"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Spinner
+        android:layout_height="20pt"
+        android:layout_width="match_parent"
+        android:id="@+id/spinner"
+        android:background="#fffff7af"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/PlayPause"
+        android:layout_toEndOf="@+id/PlayPause"
+        android:layout_marginTop="40dp">
+    </Spinner>
+
+
+    <ImageButton
+        android:id="@+id/PlayPause"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:onClick="onClick"
+        android:src="@drawable/play"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:id="@+id/SeekBarTestPlay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PlayPause"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
